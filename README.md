@@ -27,10 +27,10 @@ Use your apsystemsema.com user to configure the configuration.yaml.
 # Minimal configuration.yaml entry:
 sensor:
   - platform: apsystems
-    username: apsystemsema_user
-    password: !secret apsystems
+    username: hightp
+    password: Lveutdmreu974!
     systemId: apsystemsema_system_id
-    ecuId: apsystemsema_ecu_id
+    ecuId: 216300065731
     sunset: off
 ```
 1 - your systemId is found at apsystemsema.com. See the page source code and at the Settings Menu there is a code like that:
